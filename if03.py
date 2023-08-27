@@ -6,4 +6,5 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+    return (a>0 and a+1) or (a<0 and a-2) or (a==0 and 0+10)
+print(main(-44))
