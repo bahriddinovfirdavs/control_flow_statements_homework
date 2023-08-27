@@ -1,4 +1,4 @@
-def main(temp):
+def main(a):
     """
     Display the message according to the following temperature conditions given to you in Celsius:
     Temp<0: "Freezing"
