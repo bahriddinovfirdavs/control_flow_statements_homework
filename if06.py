@@ -13,4 +13,5 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    return (a>0 and a+1) or (a<=0 and a)
+print(main(0))
