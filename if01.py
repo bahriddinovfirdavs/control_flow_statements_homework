@@ -7,4 +7,4 @@ def main(a):
         a: a increased by 1 if positive, else unchanged.
     """
     return (a>0 and a+1) or (a<=0 and a)
-print(main(4))
+print(main(0))
