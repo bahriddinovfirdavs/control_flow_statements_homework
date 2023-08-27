@@ -8,4 +8,5 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
-    return
+    return (a>0 and a+1) or (a<=0 and a)
+print(main(0))
