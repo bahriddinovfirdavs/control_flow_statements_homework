@@ -13,4 +13,5 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    return
+    return (a>0 and a+1) or (a<=0 and a)
+print(main(0))
