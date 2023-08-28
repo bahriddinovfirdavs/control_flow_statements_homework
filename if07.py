@@ -28,4 +28,4 @@ def main(a):
         return "the number is zero"
 
 
-print(main(int(input())))
+print(main(4))
