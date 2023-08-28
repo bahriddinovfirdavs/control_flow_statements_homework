@@ -11,5 +11,18 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return (a>0 and a+1) or (a<=0 and a)
-print(main(0))
+    if -100 < a < -9 or 9 < a < 100:
+        if a % 2 == 1:
+            return "two-digit odd number"
+    if -100 < a < -9 or 9 < a < 100:
+        if a % 2 == 0:
+            return "two-digit even number"
+    if -1000 < a < -99 or 99 < a < 1000:
+        if a % 2 == 1:
+            return "three-digit odd number"
+    if -1000 < a < -99 or 99 < a < 1000:
+        if a % 2 == 0:
+            return "three-digit even number"
+
+
+print(main(int(input())))
