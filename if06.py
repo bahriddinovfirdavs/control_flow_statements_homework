@@ -27,7 +27,9 @@ def main(a,b,c):
         v+=1
     if c>0:
         v+=1
+    if s>v:
+        return 'there are a lot of negative numbers'
+    if s<v:
+        return 'there are a lot of positive number'
 
-    return s,v
-
-print(main(5,6,-7))
+print(main(5,-6,-7))
