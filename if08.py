@@ -25,4 +25,4 @@ def main(a):
             return "three-digit even number"
 
 
-print(main(int(input())))
+print(main(77))
