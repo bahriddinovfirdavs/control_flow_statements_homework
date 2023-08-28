@@ -13,5 +13,21 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return (a>0 and a+1) or (a<=0 and a)
-print(main(0))
+    s=0
+    if a<0:
+        s+=1
+    if b<0:
+        s+=1
+    if c<0:
+        s+=1
+    v=0
+    if a>0:
+        v+=1
+    if b>0:
+        v+=1
+    if c>0:
+        v+=1
+
+    return s,v
+
+print(main(5,6,-7))
