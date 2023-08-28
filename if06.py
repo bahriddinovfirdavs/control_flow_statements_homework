@@ -30,6 +30,6 @@ def main(a,b,c):
     if s>v:
         return 'there are a lot of negative numbers'
     if s<v:
-        return 'there are a lot of positive number'
+        return 'there are a lot of positive numbers'
 
 print(main(5,-6,-7))
