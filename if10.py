@@ -13,5 +13,18 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return (a>0 and a+1) or (a<=0 and a)
-print(main(0))
+    if a < 0:
+        return "Freezing"
+    if 0 < a < 11:
+        return "Very Cold"
+    if 10 < a < 21:
+        return "Cold"
+    if 20 < a < 31:
+        return "Normal"
+    if 30 < a < 41:
+        return "Hot"
+    if a > 40:
+        return "Very Hot"
+
+
+print(main(int(input())))
