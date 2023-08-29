@@ -14,15 +14,11 @@ def main(a):
     if -100 < a < -9 or 9 < a < 100:
         if a % 2 == 1:
             return "two-digit odd number"
-    if -100 < a < -9 or 9 < a < 100:
-        if a % 2 == 0:
-            return "two-digit even number"
+        return "two-digit even number"
     if -1000 < a < -99 or 99 < a < 1000:
         if a % 2 == 1:
             return "three-digit odd number"
-    if -1000 < a < -99 or 99 < a < 1000:
-        if a % 2 == 0:
-            return "three-digit even number"
+        return "three-digit even number"
 
 
-print(main(77))
+print(main(788))
