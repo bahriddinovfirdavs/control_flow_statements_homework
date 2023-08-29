@@ -15,9 +15,7 @@ def main(a):
     if -100 < a < -9 or 9 < a < 100:
         if d * 10 + s <= a:
             return True
-    if -100 < a < -9 or 9 < a < 100:
-        if d * 10 + s > a:
-            return False
+        return False
 
 
-print(main(76))
+print(main(66))
