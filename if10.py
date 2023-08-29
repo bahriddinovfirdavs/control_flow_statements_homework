@@ -7,7 +7,6 @@ def main(a):
     Temp 21-30: "Normal"
     Temp 31-40: "Hot"
     Temp >40: "Very Hot"
-
     Args:
         temp: integer
     Returns:
@@ -27,4 +26,4 @@ def main(a):
         return "Very Hot"
 
 
-print(main(int(input())))
+print(main(32))
